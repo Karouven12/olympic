@@ -1,0 +1,871 @@
+*{
+    margin : 0;
+    padding :0;
+
+}
+
+.container{
+    width : 100%;
+    height : 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(pic45.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    padding-left: 8%;
+    padding-right: 8%;
+    height:12%;
+    display:flex;
+    align-items: center;
+  
+
+}
+
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color: rgb(192, 192, 192);
+    font-size: 17px;
+}
+
+
+  
+  .olympic-logo {
+    width: 150px; 
+    height: 150px; 
+    position: relative;
+  }
+  
+  .ring {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    
+  }
+  
+  .blue {
+    top: -10%;
+    left: 25%;
+    border: 5px solid #ffffff;
+  }
+  
+  .yellow {
+    top: 2%;
+    left: 42%;
+    border: 5px solid #ffffff;
+    
+  }
+  
+  .black {
+    top: -10%;
+    left: 60%;
+    border: 5px solid #ffffff;
+   
+  }
+  
+  .green {
+    top: 2%;
+    left: 78%;
+    border: 5px solid #ffffff;
+    
+  }
+  
+  .red {
+    top: -10%;
+    left: 95%;
+    
+    border: 5px solid #ffffff;
+  }
+  
+  .logo-text{
+  position: absolute;
+  bottom: 65px; 
+  left:45%;
+  width: 100%;
+  font-size: 20px; 
+  font-weight: bold;
+  color: aliceblue;
+  }
+
+  .heading{
+    color: aliceblue;
+    text-align: center;
+    top: 25%;
+    position: relative;
+    font-size: 50px;
+  }
+
+
+  .but {
+    height: 60vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+  button {
+    padding: 15px 35px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    box-shadow: rgba(173, 173, 173, 0.05) 0 0 8px;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: all 0.5s ease;
+  }
+  
+  button:hover {
+    letter-spacing: 4px;
+    background-color: rgb(24, 191, 220);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(24, 191, 220) 0px 7px 29px 0px;
+  }
+  
+  button:active {
+    letter-spacing: 3px;
+    background-color: hsl(24, 191, 220);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(24, 191, 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+  }
+ 
+  .about-us{
+    box-sizing: border-box;
+    margin-top: 1cm;
+    
+
+ }
+
+ .abt-heading{
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top:1cm;
+  text-align: center;
+ }
+
+ .abt-para{
+  position: absolute;
+  top:5cm;
+  text-align: center;
+  left:5cm;
+  right:5cm;
+ }
+
+ .img-abt{
+  position: absolute;
+  top:9cm;
+  left:3cm;
+
+ }
+
+ .abt-para2{
+  position: absolute;
+  top:12cm;
+  left:22cm;
+  right:5cm;
+ }
+
+ .contact-us{
+  position: absolute;
+  top: 20cm;
+  left:26cm;
+ }
+
+ .email{
+  position: absolute;
+  top:21cm;
+  left:24cm;
+ }
+
+ .footer-abt{
+  position: absolute;
+  top:26cm;
+  left: 13cm;
+  
+  
+ }
+
+.container-hotel{
+  margin-top: 1cm;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hotel-img1 img {
+  content: "";
+  background: linear-gradient(rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
+  width: 100%;
+  max-height: 300px; 
+  object-fit: cover;
+  top:15%;
+  position: absolute;
+}
+
+.h1-hotel{
+  color:#fffafa;
+  position: absolute;
+  top:30vh;
+  left:35%;
+  font-size: 40px;
+}
+
+.hotel-moto{
+  color: #ffffff;
+  position: absolute;
+  top:38vh;
+  left:38%;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.hr{
+  position:relative;
+  top:500px;
+}
+
+.hotel-1{
+  position:relative;
+  top: 550px;
+}
+
+.hotel-image1 {
+  width: 100%;
+  height: 200px;
+}
+
+.hotel-image1 img {
+  width: 100%;
+  height: auto; 
+}
+
+.hotel-heading1{
+  position:absolute;
+  top :9cm;
+  left:2cm;
+  color: #606060;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.hotel-bio1{
+  position: absolute;
+  top:12cm;
+  left:2cm;
+  right:20cm;
+}
+
+.overview1{
+  position: absolute;
+  top: 12cm;
+  left:20cm;
+  right:10cm;
+  
+}
+
+.overview2{
+  position: absolute;
+  top: 13.5cm;
+  left:20cm;
+  right:10cm;
+  
+}
+
+.overview3{
+  position: absolute;
+  top: 12cm;
+  left:28cm;
+  right:2cm;
+ 
+  
+}
+
+.overview4{
+  position: absolute;
+  top: 13.5cm;
+  left:28cm;
+  right:2cm;
+  
+}
+
+.summary{
+  position: absolute;
+  top:16cm;
+  left:2cm;
+  color: #606060;
+  font-size: 35px;
+  
+}
+
+.package-h1{
+  position:absolute;
+  top:18.5cm;
+  left: 5cm;
+  color: #606060;
+}
+
+.table1{
+  position:absolute;
+  top:20cm;
+  left:3cm;
+  width :40%;
+}
+
+.table1 th, .table1 td {
+  border: 1px solid rgb(255, 255, 255); 
+  padding: 8px; 
+  text-align: left;
+}
+
+th, td{
+  background-color: #dddddd;
+}
+
+.olympic-deals{
+  color: #ff0000;
+  position: absolute;
+  left:24.5cm;
+  top:18.5cm;
+  font-size: 20px;
+  opacity: 0; 
+    animation: fade-in-out 2s infinite alternate; /* Animation name, duration, iteration count, and direction */
+}
+
+@keyframes fade-in-out {
+  0% {
+      opacity: 0; /* Start hidden */
+  }
+  50% {
+      opacity: 1; /* Halfway, fully visible */
+  }
+  100% {
+      opacity: 0; /* End, hidden */
+  }
+}
+
+.olympic-deal{
+  position: absolute;
+  top: 21cm;
+  left:23cm;
+  font-size: 18px;
+  list-style-type: none;
+}
+
+.olympic-deal li {
+  position: relative; 
+  margin-bottom: 10px; /* Add some vertical space between list items */
+}
+
+.olympic-deal li::before {
+  content: '\2022'; /* Use unicode character for bullet point (you can use other unicode characters or custom images) */
+  position: absolute; /* Position the bullet point absolutely */
+  left: -20px; /* Adjust the position of the bullet point */
+  color: red; /* Change the color of the bullet point */
+}
+
+.hotel-2{
+  position: relative;
+  top:25cm;
+}
+
+.hotel-heading2{
+  position:absolute;
+  top:15cm;
+  left:2cm;
+  color: #606060;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.hotel-image2{
+  position:relative;
+  top:18cm;
+
+}
+
+.hotel-bio2{
+  position:absolute;
+  top:27cm;
+  left:2cm;
+  right:20cm;
+}
+
+.overview5{
+  position:absolute;
+  top: 27cm;
+  left:20cm;
+  right:10cm;
+
+
+}
+
+.overview6{
+  position:absolute;
+  top: 27cm;
+  right:2cm;
+  left:28cm;
+
+  
+}
+
+.overview7{
+  position: absolute;
+  top:28.5cm;
+  left:20cm;
+  right:11cm;
+  
+}
+
+.overview8{
+  position:absolute;
+  top:28.5cm;
+  left:28cm;
+  right:2cm;
+}
+
+.overview9{
+  position: absolute;
+  top:30cm;
+  left:20cm;
+  right:11cm;
+  
+}
+
+.overview10{
+  position:absolute;
+  top:30cm;
+  left:28cm;
+  right:2cm;
+  
+}
+
+.summary2{
+  position: absolute;
+  top:32cm;
+  left:2cm;
+  color: #606060;
+  font-size: 35px;
+  
+}
+
+.package-h2{
+  position:absolute;
+  top:34cm;
+  left: 5cm;
+  color: #606060;
+
+}
+
+.table2{
+  position:absolute;
+  top:35cm;
+  left:3cm;
+  width :40%;
+}
+
+.table2 th, .table2 td {
+  border: 1px solid rgb(255, 255, 255); 
+  padding: 8px; 
+  text-align: left;
+}
+
+th, td{
+  background-color: #dddddd;
+}
+
+.olympic-deals2{
+  color: #ff0000;
+  position: absolute;
+  left:24.5cm;
+  top:34cm;
+  font-size: 20px;
+  opacity: 0; 
+    animation: fade-in-out 2s infinite alternate; /* Animation name, duration, iteration count, and direction */
+}
+
+@keyframes fade-in-out {
+  0% {
+      opacity: 0; /* Start hidden */
+  }
+  50% {
+      opacity: 1; /* Halfway, fully visible */
+  }
+  100% {
+      opacity: 0; /* End, hidden */
+  }
+}
+
+.olympic-deal2{
+  position: absolute;
+  top: 35.5cm;
+  left:23cm;
+  font-size: 18px;
+  list-style-type: none;
+  right:2cm;
+}
+
+.olympic-deal2 li {
+  position: relative; 
+  margin-bottom: 10px; /* Add some vertical space between list items */
+}
+
+.olympic-deal2 li::before {
+  content: '\2022'; /* Use unicode character for bullet point (you can use other unicode characters or custom images) */
+  position: absolute; /* Position the bullet point absolutely */
+  left: -20px; /* Adjust the position of the bullet point */
+  color: red; /* Change the color of the bullet point */
+}
+
+.footer-hotel{
+  position: absolute;
+  top: 50cm;
+  left: 13cm;
+  color: #606060;
+  padding-bottom: 10px;
+}
+
+.container-competition{
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width : 100%;
+  height : 60vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(Take-Part-Athlete-Registration-Registered-Athlete-hero.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.competition-heading{
+  position: absolute;
+  top:7cm;
+  left:4cm;
+  right:4cm;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.competition-list1{
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(206, 206, 206);
+  height: 170vh;
+
+
+  
+}
+
+.com-motto1{
+  position:absolute;
+  top:13.5cm;
+  left:10cm;
+  right:10cm;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 21px;
+  color: rgb(165, 165, 165);
+  text-align: center;
+}
+
+.vertical-line1 {
+  border-bottom: 1px solid black; 
+  margin-top: 4cm; 
+}
+
+.option1{
+  font-size: 26px;
+  position: absolute;
+  top:21cm;
+  left:4.5cm;
+  color:#949494;
+}
+
+.intro1{
+position: absolute;
+top:18cm;
+left:4cm;
+right:4cm;
+}
+
+.comp-img1{
+  position: absolute;
+  top:24cm;
+  left:4cm;
+  width: 400px;
+  height: 500px;
+}
+
+.comp-img1 img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.comp-image2{
+  position: absolute;
+  top:24cm;
+  left:15.5cm;
+  width: 300px;
+  height: 200px;
+}
+
+.comp-image2 img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.comp-img3{
+  position: absolute;
+  top:24cm;
+  right:4cm;
+  width: 300px;
+  height: 200px;
+}
+
+.comp-img3 img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.swimming-txt{
+  position: absolute;
+  top:30cm;
+  left:4cm;
+  right:25cm;
+}
+
+.gym-txt{
+  position: absolute;
+  top:30cm;
+  left:15.5cm;
+  right:14cm;
+}
+
+.track-txt{
+  position: absolute;
+  top:30cm;
+  left:26.5cm;
+  right:5cm;
+}
+
+.option2{
+  position: absolute;
+  top:36cm;
+  left:4.5cm;
+  font-size: 26px;
+  color:#949494;
+}
+
+.comp-img4{
+  position: absolute;
+  top:39cm;
+  left:4cm;
+  width: 300px;
+  height: 200px;
+
+}
+
+.comp-img4 img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.comp-img5{
+  position: absolute;
+  top:39cm;
+  left:15.5cm;
+  width: 300px;
+  height: 200px;
+
+}
+
+.comp-img5 img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.comp-img6{
+  position: absolute;
+  top:39cm;
+  right:4cm;
+  width: 300px;
+  height: 200px;
+
+}
+
+.comp-img6  img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.basketball-txt{
+  position: absolute;
+  top:45cm;
+  left:4cm;
+  right:25cm;
+}
+
+.archery-txt{
+  position: absolute;
+  top:45cm;
+  left:15.5cm;
+  right:14cm;
+}
+
+.tennis-txt{
+  position: absolute;
+  top:45cm;
+  left:26.5cm;
+  right:5cm;
+}
+
+.ent-container{
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width : 100%;
+  height : 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(ent.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.ent-heading{
+  color: azure;
+  font-size: 40px;
+  position: absolute;
+  top:15cm;
+  left:4cm;
+  right:4cm;
+}
+
+.ent1{
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(206, 206, 206);
+  height: 220vh;
+
+}
+
+.ent-head1{
+  position:relative;
+  top:2cm;
+  left:2cm;
+}
+
+.ent-img1{
+  position: absolute;
+  top:36cm;
+  left:13cm;
+  width: 10cm;
+  height:5cm;
+
+}
+
+.ent-img1 img{
+  width: 100%;
+  height: 100%;
+}
+
+.ent-img2{
+  position: absolute;
+  top:36cm;
+  left:2cm;
+  width: 10cm;
+  height:5cm;
+
+}
+
+.ent-img2 img{
+  width: 100%;
+  height: 100%;
+}
+
+.ent-img3{
+  position: relative;
+  top:3.5cm;
+  left:2cm;
+  width: 21cm;
+  height:10cm;
+
+
+}
+
+.ent-img3 img{
+  width: 100%;
+  height: 100%;
+}
+
+.ent-para1{
+  position: absolute;
+  top:26cm;
+  left:24cm;
+  right:1cm;
+}
+
+.ent-head2{
+  position:relative;
+  top:12cm;
+  left:2cm;
+}
+
+.ent-img4{
+  position: relative;
+  top:13cm;
+  left:2cm;
+  width: 21cm;
+  height:10cm;
+}
+
+.ent-img4 img{
+  width: 100%;
+  height: 100%;
+}
+
+.ent-img5{
+  position: absolute;
+  top:56cm;
+  left:2cm;
+  width: 10cm;
+  height:5cm;
+
+}
+
+.ent-img5 img{
+  width: 100%;
+  height: 100%;
+}
+
+.ent-img6{
+  position: absolute;
+  top:56cm;
+  left:13cm;
+  width: 10cm;
+  height:5cm;
+}
+
+.ent-img6 img{
+  width: 100%;
+  height: 100%;
+}
+
+.ent-para2{
+  position: absolute;
+  top: 45.3cm;
+  left:24cm;
+  right:1cm;
+}
+
+.footer-ent{
+  position: absolute;
+  top:65cm;
+  left:13cm;
+}
